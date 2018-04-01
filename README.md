@@ -7,7 +7,7 @@ Time spent: **X** hours spent in total
 ## Pentesting Report
 
 1. Vulnerability Name or ID: Authenticated Stored Cross-Site Scripting (XSS) in YouTube URL Embeds
-  - [X] Summary: You can embed a YouTube link containing XSS on a page
+  - [X] Summary: An embedded YouTube link with a script in the URL creates a XSS attack
     - Vulnerability types: XSS
     - Tested in version: 4.2
     - Fixed in version: 4.2.13
@@ -16,15 +16,15 @@ Time spent: **X** hours spent in total
   - [X] Affected source code:
     - https://github.com/WordPress/WordPress/commit/419c8d97ce8df7d5004ee0b566bc5e095f0a6ca8
  
-2. Vulnerability Name or ID
-  - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
-  - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+2. Vulnerability Name or ID: Authenticated Shortcode Tags Cross-Site Scripting (XSS) 
+  - [X] Summary: A XSS attack is executed upon hovering the mouse over a caption
+    - Vulnerability types: XSS
+    - Tested in version: 4.2
+    - Fixed in version: 4.2.5
+  - [X] GIF Walkthrough: <img src="https://github.com/mattcc1398/CodePath-Week7/blob/master/Shortcode%20tags.gif" width="800">
+  - [X] Steps to recreate: Embed a caption with a link that contains an onMouseOver script. Upload the post, and upon hovering over the caption a XSS alert will appear. 
+  - [X] Affected source code: 
+    - https://blog.checkpoint.com/2015/09/15/finding-vulnerabilities-in-core-wordpress-a-bug-hunters-trilogy-part-iii-ultimatum/
 1. (Required) Vulnerability Name or ID
   - [ ] Summary: 
     - Vulnerability types:

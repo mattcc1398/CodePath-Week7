@@ -30,7 +30,7 @@ Time spent: 5 hours spent in total
     - Vulnerability types: XSS
     - Tested in version: 4.2 
     - Fixed in version: 4.2.2
-  - [X] GIF Walkthrough: <img src="https://github.com/mattcc1398/CodePath-Week7/blob/master/Theme%20XSS.gif width="800">
+  - [X] GIF Walkthrough: <img src="https://github.com/mattcc1398/CodePath-Week7/blob/master/Theme%20XSS.gif" width="800">
   - [X] Steps to recreate: Embed a link to a 2015 generic theme with a script in the URL. Once the page is posted, a XSS alert will appear when it is opened. 
   - [X] Affected source code:
     - https://codex.wordpress.org/Version_4.2.2

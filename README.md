@@ -12,7 +12,7 @@ Time spent: 5 hours spent in total
     - Tested in version: 4.2
     - Fixed in version: 4.2.13
   - [X] GIF Walkthrough: <img src="https://github.com/mattcc1398/CodePath-Week7/blob/master/YouTube%20XSS.gif" width="800">
-  - [X] Steps to recreate: Embed a YouTube link with XSS in a page or post. Update/post the changes, and then view the post/page. A XSS alert will appear once the page or post is opened.
+  - [X] Steps to recreate: Embed a YouTube link with an onload script in a page or post. Update/post the changes, and then view the post/page. A XSS alert will appear once the page or post is opened.
   - [X] Affected source code:
     - https://github.com/WordPress/WordPress/commit/419c8d97ce8df7d5004ee0b566bc5e095f0a6ca8
  
@@ -31,7 +31,7 @@ Time spent: 5 hours spent in total
     - Tested in version: 4.2 
     - Fixed in version: 4.2.2
   - [X] GIF Walkthrough: <img src="https://github.com/mattcc1398/CodePath-Week7/blob/master/Theme%20XSS.gif" width="800">
-  - [X] Steps to recreate: Embed a link to a 2015 generic theme with a script in the URL. Once the page is posted, a XSS alert will appear when it is opened. 
+  - [X] Steps to recreate: Embed a link to a 2015 generic theme with an onerror script in the URL. Once the page is posted, a XSS alert will appear when it is opened. 
   - [X] Affected source code:
     - https://codex.wordpress.org/Version_4.2.2
 

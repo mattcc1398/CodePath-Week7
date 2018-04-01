@@ -11,7 +11,7 @@ Time spent: **X** hours spent in total
     - Vulnerability types: XSS
     - Tested in version: 4.2
     - Fixed in version: 4.2.13
-  - [ ] GIF Walkthrough: <img src="my_gif_walkthrough_url" width="800">
+  - [ ] GIF Walkthrough: <img src="https://github.com/mattcc1398/CodePath-Week7/blob/master/YouTube%20XSS.gif" width="800">
   - [ ] Steps to recreate: Embed a YouTube link with XSS in a page or post. Update/post the changes, and then view the post/page. A XSS alert will appear once the page or post is opened.
   - [ ] Affected source code:
     - https://github.com/WordPress/WordPress/commit/419c8d97ce8df7d5004ee0b566bc5e095f0a6ca8

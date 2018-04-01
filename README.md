@@ -1,6 +1,6 @@
 # Project 7 - WordPress Pentesting
 
-Time spent: **X** hours spent in total
+Time spent: 5 hours spent in total
 
 > Objective: Find, analyze, recreate, and document **five vulnerabilities** affecting an old version of WordPress
 
@@ -25,37 +25,15 @@ Time spent: **X** hours spent in total
   - [X] Steps to recreate: Embed a caption with a link that contains an onMouseOver script. Upload the post, and upon hovering over the caption a XSS alert will appear. 
   - [X] Affected source code: 
     - https://blog.checkpoint.com/2015/09/15/finding-vulnerabilities-in-core-wordpress-a-bug-hunters-trilogy-part-iii-ultimatum/
-1. (Required) Vulnerability Name or ID
-  - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
-  - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-1. (Optional) Vulnerability Name or ID
-  - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
-  - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-1. (Optional) Vulnerability Name or ID
-  - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
-  - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php) 
-
-## Assets
-
-List any additional assets, such as scripts or files
+3. Vulnerability Name or ID: Unauthenticated Genericons Cross-Site Scripting (XSS)
+  - [X] Summary: Embedding a link to 2015 genericon theme with a script in the URL allows for a XSS attack
+    - Vulnerability types: XSS
+    - Tested in version: 4.2 
+    - Fixed in version: 4.2.2
+  - [X] GIF Walkthrough: <img src="" width="800">
+  - [X] Steps to recreate: Embed a link to a 2015 generic theme with a script in the URL. Once the page is posted, a XSS alert will appear when it is opened. 
+  - [X] Affected source code:
+    - https://codex.wordpress.org/Version_4.2.2
 
 ## Resources
 
@@ -64,9 +42,6 @@ List any additional assets, such as scripts or files
 
 GIFs created with [LiceCap](http://www.cockos.com/licecap/).
 
-## Notes
-
-Describe any challenges encountered while doing the work
 
 ## License
 
